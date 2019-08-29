@@ -1,0 +1,58 @@
+Persian-bib, V0.9			2015/05/09
+Persian translations of some BibTeX styles
+Author: Mahmood Amintoosi, http://profs.hsu.ac.ir/mamintoosi
+Copyright © 2009–2016
+It may be distributed and/or modified under the LaTeX Project Public License,
+version 1.3c or higher (your choice). The latest version of
+this license is at: http://www.latex-project.org/lppl.txt
+
+This work is “author-maintained” (as per LPPL maintenance status)
+by Mahmood Amintoosi
+------------------------------------------------------------------------------
+
+These files are Persian translations of some of the classical BibTeX style files. 
+Unlike bib-fr package which can be used only for French references, the Persian 
+.bst files simultaneously handle both Latin and Persian references. 
+
+File 'cp1256fa.csf' is prepared for correct sorting of Persian references and 
+three fields named 'LANGUAGE', 'TRANSLATOR' and 'AUTHORFA' are defined. This
+file has a bit modification with respect to its previous version (0.6) according
+to PersianAcademy:  http://www.persianacademy.ir
+
+Setting 'LNAGUAGE' to 'Persian' makes the reference direction Left-to-Right and 
+makes BibTeX to use Persian translations of keywords such as 'et al.'. 
+Also some other modifications has been done. for example in Persian references, 
+instead of Latin references, the book edition appears before the edition number. 
+If this field is omitted or contains a word other than 'Persian', the reference 
+considered as Left-to-Right reference.
+
+'TRANSLATOR' field is used when a reference is translated by someone. 
+His or her name appears in the reference in the proper location.
+
+'AUTHORFA' is used with Asa-fa.bst, chicago-fa.bst and plainnat-fa.bst. 
+The user should mention the Persian equivalent of the author(s) name(S), 
+for proper referencing in the text. If this field is omitted, the original 
+author name, in 'AUTHOR' will be used.
+
+Currently  7 files unsrt-fa.bst, acm-fa.bst, ieeetr-fa.bst, plain-fa.bst,
+Asa-fa.bst, chicago-fa.bst and plainnat-fa.bst are modified for Persian 
+documents prepared with XePersian (a Persian typesetting package over XeTeX).
+Hence this package is dependent to XePersian Package.
+
+Current Persian bst files work fine with hyperref and natbib packages.
+
+Persian translations of key-words such as 'et al.' can be changed with other 
+translations.
+If you modify anything, however, please change the name of the file.
+
+Change Log:
+Version 0.8 : two other styles 'plain-fa-inLTR' and 'plain-fa-inLTR-beamer' 
+are added to the package. These styles are prepared for inserting Persian 
+references in LTR documents which are dependent to bidi package.
+
+Version 0.9: Debug plain*.bst styles: change "ed. " -> "edition", 
+"vol" -> "volume" or "Volume, "p."->"page", "pp."->"pages" and some others.
+
+Mahmood Amintoosi  <m.amintoosi@gmail.com>
+http://profs.hsu.ac.ir/mamintoosi
+http://www.parsilatex.com/

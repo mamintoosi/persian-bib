@@ -1,0 +1,26 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+
+\bibitem[ترابی و دیگران(2015{\natexlab{ب}})ترابی, حقی, و
+  جواهری]{Torabi2015fa}
+ف. ترابی, ش. حقی, و ع. جواهری.
+\newblock یک مقاله در زمینه ی انرژی.
+\newblock \emph{نشریه ای در زمینه ی انرژی های سبز},
+  25, 2015{\natexlab{ب}}.
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem[ترابی و دیگران(2015{\natexlab{\lr{a}}})Torabi, Haghi, and
+  Javaheri]{Torabi2015en}
+F.~Torabi, Sh. Haghi, and A.~Javaheri.
+\newblock An energy related paper.
+\newblock \emph{The Journal of Energy}, 25, 2015{\natexlab{\lr{a}}}.
+
+\end{LTRbibitems}
+
+\end{thebibliography}

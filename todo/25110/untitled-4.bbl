@@ -1,0 +1,60 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+
+\bibitem[علیزاده(1390)]{علیزاده}
+امین علیزاده.
+\newblock \emph{اصول هیدرولوژی كاربردی}.
+\newblock دانشگاه امام رضا(ع), مشهد, 1390.
+\newblock ISBN {\setlatin 964-6582-55-9}.
+
+
+\bibitem[مؤمنی(1390)]{مومنی}
+منصور مؤمنی.
+\newblock \emph{خوشه‌بندی داده‌ها (تحلیل
+  خوشه‌ای)}.
+\newblock منصور مومنی, تهران, 1390.
+\newblock ISBN $978-964-04-7560-7$.
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem[مک‌دُنل و وودز(2004)McDonnell and Woods]{McDonnell2004}
+Jeffrey~J. McDonnell and Ross Woods.
+\newblock {On the need for catchment classification}.
+\newblock \emph{J. Hydrol.}, 299\penalty0 (1-2):\penalty0 2--3, 2004.
+\newblock ISSN 00221694.
+\newblock \doi{10.1016/j.jhydrol.2004.09.003}.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem[رضوی و کُلیبالی(2013)Razavi and Coulibaly]{Razavi2013}
+Tara Razavi and Paulin Coulibaly.
+\newblock {Streamflow Prediction in Ungauged Basins: Review of Regionalization
+  Methods}.
+\newblock \emph{J. Hydrol. Eng.}, 18\penalty0 (8):\penalty0 958--975, 2013.
+\newblock ISSN 1084-0699.
+\newblock \doi{10.1061/(ASCE)HE.1943-5584.0000690}.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem[شگال و دیگران(2014)Sehgal, Tiwari, and
+  Chatterjee]{Sehgal2014}
+Vinit Sehgal, Mukesh~K. Tiwari, and Chandranath Chatterjee.
+\newblock {Wavelet Bootstrap Multiple Linear Regression Based Hybrid Modeling
+  for Daily River Discharge Forecasting}.
+\newblock \emph{Water Resour. Manag.}, 28\penalty0 (10):\penalty0 2793--2811,
+  2014.
+\newblock ISSN 09204741.
+\newblock \doi{10.1007/s11269-014-0638-7}.
+
+\end{LTRbibitems}
+
+\end{thebibliography}

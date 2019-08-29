@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+\usepackage{natbib}
+\usepackage{xepersian}
+\settextfont{XB Niloofar}%{Persian Modern}
+
+\begin{document}
+
+\noindent
+تست \citep{Torabi2015fa}.
+\\
+\citep{Torabi2015en}
+\\
+\cite{Torabi2015en}
+\\
+\\
+\citep*{Torabi2015fa}
+\\
+\LRE{\lr{\citep*{Torabi2015en}}}
+\\\citep*{Torabi2015en}
+\\
+\LRE{\lr{\cite{Torabi2015en}}}
+\\
+\citet{Torabi2015fa}
+\\
+\citet{Torabi2015en}
+\\
+\\
+\citet*{Torabi2015fa}
+\\
+\LRE{\lr{\citet*{Torabi2015en}}}
+
+\bibliographystyle{plainnat2-fa}
+\bibliography{Refs}
+
+\end{document}	

@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{natbib}
+\usepackage{xepersian}
+\settextfont{Yas}
+\setdigitfont{Yas}
+
+\makeatletter
+\bidi@AtBeginEnvironment{LTRbibitems}{\renewcommand{\doi}[1]{doi: \lr{#1}}}
+\makeatother
+
+\begin{document}
+
+\nocite{*}
+\bibliographystyle{plainnat-fa}
+\bibliography{AllRef181295}
+
+\end{document}
+
+% آقا وفا در پرسش و پاسخ 25042 دستور \setlatin را برای شابک پیشنهاد دادند.

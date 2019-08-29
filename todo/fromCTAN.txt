@@ -1,0 +1,81 @@
+﻿Hello Mahmood,
+
+thanks for this upload:
+
+On Saturday 14 March 2015 at 15:14:20 +0100  CTAN Portal Service (no-reply@ctan.org) wrote:
+
+> Upload information:
+> Package:        persian-bib
+> Summary:        Persian translations of classic BibTeX styles.
+> Version:        0.8 / 2015-03-14
+> Author:         Mahmood Amintoosi
+> Author's email: m.amintoosi@gmail.com
+> Location:       /biblio/bibtex/contrib/persian-bib/
+> License:        lppl
+> Upload type:    silent
+>
+> Announcement text:
+> ----------------------------------------------------------------------
+> ==== No announcement needed ===  
+> ----------------------------------------------------------------------
+>
+> This package is located at
+>    http://mirror.ctan.org/biblio/bibtex/contrib/persian-bib/
+>
+> More information is at
+>    http://www.ctan.org/pkg/persian-bib
+>
+> Notes to maintainers:
+> ------------------------------------------------------------------------
+> In this version two other styles 'plain-fa-inLTR' and
+> 'plain-fa-inLTR-beamer' are added to the package.
+> These styles are prepared for inserting Persian references in
+> LTR documents which are dependent to bidi package.  Also
+> cp1256fa.csf and the user guide have some modifications.
+> ------------------------------------------------------------------------
+
+ Some feedback to uploader:
+
+ 1. Please read
+    http://mirror.ctan.org/help/ctan/CTAN-upload-addendum.html#crlf
+    All your text files had Windows type line endings and the
+    zip program did not provide the necessary "flags" for
+    correcting this automatically.  So I corrected the line
+    endings manually using the "fromdos" utility.
+
+ 2. The licence clauses in your .bst files sound somewhat
+    mysterious to me:  "either this version of this license or
+    (at your option) any later version.", where one does not
+    know what "_this_ version" is.
+    (The README specifies version 1.3c alright.)
+    Could you please harmonize these statements for your next
+    release (no need to re-upload now just because of this
+    detail).
+
+ 3. Please read
+    http://mirror.ctan.org/help/ctan/CTAN-upload-addendum.html#urls
+    I found the following URLs in csf/cp1256fa.csf:
+             ftp.tex.ac.uk:/tex-archive/biblio/bibtex/8-bit
+             ftp.shsu.edu:/tex-archive/biblio/bibtex/8-bit
+             ftp.uni-stuttgart.de:/tex-archive/biblio/bibtex/8-bit
+    Please replace "ftp.tex.ac.uk:/tex-archive/",
+                   "ftp.shsu.edu:/tex-archive/"
+             and   "ftp.uni-stuttgart.de:/tex-archive/"
+             with  "http://mirror.ctan.org/"
+    for your next release.  Thanks in advance!
+              
+
+ The update has been installed on the German server and _should_
+ make its way to the mirrors within the next 24 hours.
+ (As a matter of fact, we are experiencing at the moment a
+ severe problem with our mirroring mechanism, but at least
+ migration to TeX Live seems assured.)
+
+
+       Kind regards
+    Petra Rübe-Pugliese
+     for the CTAN team
+
+
+% درج راهنما در خصوص LTRcite: http://qa.parsilatex.com/2582
+% درج اشتباه ed به جای edition در خط ۱۵۳ از plainnat-fa و لزوم حذف فاصله خالی بعد از آن
